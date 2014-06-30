@@ -52,12 +52,12 @@ define(function (require, exports, module) {
           return state.token(stream, state);
         },
 
-        indent: function(state, textAfter) {
+        /*indent: function(state, textAfter) {
           if (state.token == xml || /^\s*<[\/]/.test(textAfter))
             return xmlMode.indent(state.xmlState, textAfter);
           else if (state.token == js)
             return jsMode.indent(state.localState, textAfter);
-        },
+        },*/
 
         electricChars: "/{}:"
       }

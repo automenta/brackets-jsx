@@ -3,7 +3,7 @@
     "title": "React.JS (.jsx) Language",
     "description": "Add syntax highlighting support for the React.JS (.jsx) template language.",
     "homepage": "https://github.com/automenta/brackets-jsx",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "jindw (http://xidea.org), SeH (http://github.com/automenta)",
     "license": "LGPL",
     "engines": {
